@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="w-[99%] ml-[0.5%] bg-gradient-to-b from-[#9c064c] to-[#1f0040] text-white">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,228 +9,150 @@
     type="text/css"
   />
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="shortcut icon" type="image/jpg/x-icon" href="/logoicon.png" />
-  <title>WatchRanka</title>
+  <link rel="shortcut icon" type="image/jpg/x-icon" href="./Images/logoicon.png" />
+  <title>Tech-fair</title>
 
 </head>
-<body>
+<body style="font-family: Lato, sans-serif; font-weight: 700;">
 
-    <header>
-        <div class="navbar bg-base-100">
-            <div class="flex-1">
-              <a class="btn btn-ghost text-xl">daisyUI</a>
+    <header class=" fixed top-0 z-[2] bg-[white] text-[#9c064c] w-[99%]" >
+        <div class="navbar  flex my-[1%] ">
+            <div class="flex">
+              <a href="#WELCOME" class="btn btn-ghost text-6xl font-extrabold">TECH-FAIR</a>
+              
             </div>
-            <div class="flex-none gap-2">
-              <div class="form-control">
-                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+            <div class="flex-1 justify-end content-center mr-[1rem] ">
+              <div class="flex gap-[1rem] text-2xl hover:text-black" >                
+                <a href="#ABOUT">ABOUT</a>
+                <a href="#AGENDA">AGENDA</a>
+                <a href="#GUEST">GUEST SPEAKERS</a>
+                <a href="#RSVP">RSVP</a>
               </div>
-              <div class="dropdown dropdown-end">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-                  <div class="w-10 rounded-full">
-                    <img
-                      alt="Tailwind CSS Navbar component"
-                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                  </div>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li>
-                    <a class="justify-between">
-                      Profile
-                      <span class="badge">New</span>
-                    </a>
-                  </li>
-                  <li><a>Settings</a></li>
-                  <li><a>Logout</a></li>
-                </ul>
-              </div>
+              
             </div>
+            
           </div>
 
-          <!-- Nav bar to -->
-          <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-xl">daisyUI</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
-                <li>
-                  <details>
-                    <summary>Parent</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li><a>Item 3</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
-            </div>
-          </div>
           
     </header>
-    <main>
+    <main class="mt-[3rem]">
         <!-- Event Banner -->
-        <div
-        class="hero min-h-screen"
-        style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-neutral-content text-center">
+        <div id="WELCOME"
+        class="hero min-h-screen mt-[3rem] "
+        style="background-image: url(./Images/TECH1.webp);">
+        <div class="hero-overlay bg-opacity-70"></div>
+        <div class="hero-content text-neutral-content text-white text-center">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-            <p class="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-              quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p>
-            <button class="btn btn-primary">Get Started</button>
+            <div class="mb-5 text-6xl text-white font-bold">
+            <h1>TECH-FAIR </h1>
+            <h1>2024</h1>
           </div>
+            <p class="mb-5 text-white text-2xl ">
+              Welcome to the TECH-FAIR 202. <br> Under the theme Advancing and Merging in the tech space.
+            </p>
+            <button  type="button" class="bg-[#9c064c] text-2xl p-[1rem] rounded-xl">
+              Regiter Here
+            </button>
+          </div>
+          
         </div>
       </div>
-      </main>
-
+    
+      <br  id="ABOUT">
       <!-- Event details section -->
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div  class="card my-[5rem] shadow-xl text-2xl leading-10 text-center w-[70%] ml-[15%]">
         <div class="card-body">
-          <h2 class="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
-          </div>
+          
+          <p>Uniting global technology and telecom leaders, entrepreneurs, and policymakers to drive digital transformation and innovation across Africa.
+        
+          </p>
+          <p>The TECH-FAIR provides a 360 view of how tech and strategy evolution is reshaping Africa’s diverse industry sectors - from telecoms, financial services, healthcare, government, SME and start-ups, retail, manufacture and beyond.
+
+            Expect world-class speakers, industry leading content, two international exhibitions, and outcome-driven networking focussed on how tech integration is delivering real-world impact through enterprise excellence and socioeconomic development.</p>
+           
+            <P>11-13 Nov: Expo & Content Sessions </p>
+            
+            <p>10-13 Nov: VIP & Partner Events</p>
+            
+            <p id="AGENDA">Kampala Uganda</p>
+
         </div>
       </div>
 
       <!-- Event agenda -->
 
-      <div class="card glass w-96">
-        <figure>
+      <div class="card" >
+        <figure class="w-[70%] rounded-[1rem] ml-[15%]">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src="./Images/Agenda.jpg"
             alt="car!" />
         </figure>
-        <div class="card-body">
-          <h2 class="card-title">Life hack</h2>
-          <p>How to park your car at your garage?</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Learn now!</button>
-          </div>
-        </div>
+        <br id="GUEST">
       </div>
 
       <!-- Guest Speakers -->
+      <h1  class="text-center my-[5rem] text-5xl font-extrabold">2025 Speakers Include</h1>
 
-      <section>
-        <div class="card bg-base-100 w-96 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes"
-                class="rounded-xl" />
-            </figure>
+      <section class="flex justify-between w-[80%] ml-[10%] ">
+        <div class="card glass bg-base-100 w-96 shadow-xl">
+
+          <div class="avatar">
+            <div class="w-[20rem] rounded-xl ml-[9%] mt-[2%]">
+              <img src="./Images/Thomas Dohmke.jpeg" />
+            </div>
+          </div>
+        
+          
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
+              <h2 class="card-title">Thomas Dohmke</h2>
+              
+              <p>CEO of GitHub. He previously worked at Microsoft as a Principal Director of PM. Thomas Dohmke attended the University of Glasgow.</p>
+              
             </div>
           </div>
 
-          <div class="card bg-base-100 w-96 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes"
-                class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+          <div class="card glass bg-base-100 w-96 shadow-xl">
+            
+            <div class="avatar">
+              <div class="w-[20rem] rounded-xl ml-[9%] mt-[2%]">
+                <img src="./Images/Sylvia-Mulinge.jpg" />
               </div>
+            </div>
+          
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Sylvia Mulinge</h2>
+              <p>Sylvia Wairimu Mulinge, is a Kenyan businesswoman and corporate executive. Since 1 October 2022, she has served as the chief executive officer of MTN Uganda, </p>
+              
             </div>
           </div>
 
-          <div class="card bg-base-100 w-96 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes"
-                class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+          <div class="card glass bg-base-100 w-96 shadow-xl">
+            
+            <div class="avatar">
+              <div class="w-[20rem] rounded-xl ml-[9%] mt-[2%]">
+                <img src="./Images/Baryomunsi.jpeg" />
               </div>
             </div>
-          </div>
 
+            <div id="RSVP" class="card-body items-center text-center">
+              <h2 class="card-title">Chris Baryomunsi</h2>
+              <p>Chris Baryomunsi is a Ugandan physician, public health specialist, demographer, and politician. He is the Minister for ICT and National Guidance in the Cabinet of Uganda.</p>
+              
+            </div>
+          </div>
+      </section>
           <!-- RSVP Section -->
-           <section>
+           <h1  class="text-center my-[5rem] text-5xl font-extrabold"> RSVP</h1>
+           <section class="w-[50%] ml-[25%] p-[1rem]  glass rounded-[1rem]">
 
            
-<div>
-          <label class="input input-bordered flex items-center gap-2">
-            <input type="text" class="grow" placeholder="Search" />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 16 16"
-              fill="currentColor"
-              class="h-4 w-4 opacity-70">
-              <path
-                fill-rule="evenodd"
-                d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-                clip-rule="evenodd" />
-            </svg>
-          </label>
-          <label class="input input-bordered flex items-center gap-2">
+        <div class="pt-[1rem] ">
+          
+          <label class="input input-bordered flex items-center gap-2 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -241,9 +163,12 @@
               <path
                 d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
             </svg>
-            <input type="text" class="grow" placeholder="Email" />
+            <input type="text" class="grow" placeholder="NAME" />
           </label>
-          <label class="input input-bordered flex items-center gap-2">
+        </div>
+        
+        <div class="pt-[1rem]">
+          <label class="input input-bordered flex items-center gap-2 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -252,29 +177,17 @@
               <path
                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
             </svg>
-            <input type="text" class="grow" placeholder="Username" />
+            <input type="text" class="grow" placeholder="EMAIL" />
           </label>
-          <label class="input input-bordered flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 16 16"
-              fill="currentColor"
-              class="h-4 w-4 opacity-70">
-              <path
-                fill-rule="evenodd"
-                d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
-                clip-rule="evenodd" />
-            </svg>
-            <input type="password" class="grow" value="password" />
-          </label>
+          
         </div>
 
           <!-- confirmation -->
 <div>
 
-    <div class="form-control">
+    <div class="form-control pt-[1rem]">
         <label class="cursor-pointer label">
-          <span class="label-text">Remember me</span>
+          <span class="label-text text-xl text-center">Confirm Attendance</span>
           <input type="checkbox" checked="checked" class="checkbox checkbox-error" />
         </label>
       </div>
@@ -287,9 +200,56 @@
 
     </main>
     
-    <footer>
-
+    <footer class="footer bg-base-200 text-base-content text-white border-base-300 border-t px-10 py-4 mt-[3rem]">
+      <aside class="grid-flow-col items-center">
+       
+        <img width="100"         
+         src="./Images/logoicon.png" alt="logo image">
+        <p>
+          TECH-FAIR
+          <br />
+          Providing reliable innovations since 1992
+        </p>
+      </aside>
+      <nav class="md:place-self-center md:justify-self-end">
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
     </footer>
+    
 
 </body>
 </html>
